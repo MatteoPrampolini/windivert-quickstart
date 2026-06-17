@@ -1,0 +1,14 @@
+CompileFlags:
+  Add:
+    - -std=c11
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -DWIN32_LEAN_AND_MEAN
+    - -Ithirdparty/windivert/include
+    - -I../thirdparty/windivert/include
+    - --target=x86_64-w64-windows-gnu
+
+InlayHints:
+  Enabled: true
+  ParameterNames: false
