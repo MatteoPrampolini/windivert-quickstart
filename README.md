@@ -7,6 +7,10 @@ There is no fancy download for the latest version.
 
 The default build is x64, but x86 is already wired in the Makefile.
 
+---
+
+`git clone https://github.com/MatteoPrampolini/windivert-quickstart.git`
+
 To run this project:
 
 * `make && make run-cmd-admin`
@@ -14,3 +18,10 @@ To run this project:
 Windivert requires admin privileges to run.
 
 Note: the Makefile is vibe-coded. I CBA.
+
+---
+
+This quickstart code is released under the MIT License.
+
+WinDivert is bundled separately in `thirdparty/windivert/` and remains licensed
+under its original [license](https://github.com/basil00/WinDivert/blob/master/LICENSE).
